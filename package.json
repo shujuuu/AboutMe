@@ -1,0 +1,10 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "A project that queries auto complete search data from google",
+  "dependencies": {
+    "autocompl": "^1.1.0",
+    "firebase": "^7.1.0",
+    "puppeteer": "^1.20.0"
+  }
+}
