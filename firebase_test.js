@@ -19,7 +19,7 @@ let ref = firebase.app().database().ref();
 let playersRef = firebase.database().ref("sleep/");
 playersRef.set ({
     how: {
-        number: 1,
+        number: 5,
         age: 30
     },
 });
