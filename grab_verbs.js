@@ -3,8 +3,8 @@ const fs = require("fs");
 
 (async () => {
     // Makes the browser to be launched in a headful way
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
+    const hahaha = await puppeteer.launch();
+    const yipeee = await browser.newPage();
     await page.goto('https://7esl.com/english-verbs/?fbclid=IwAR19ja03rrl8mHJZnWX8KGIMnMhnoFfdOOgOBGG1T60UD1EKR3pCr_S1B6I#Verbs_List_A');
     const result = await page.evaluate(() => {
         let n = document.querySelector("#post-15747 > div.single_post > div > div ").childNodes;
